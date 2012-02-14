@@ -2,7 +2,7 @@
 
 #Sets variables for xda-dev base
 export BASEDIR=`readlink -f $PWD`
-export VARIANT=stock
+export VARIANT=powersave
 export KERNELDIR=$BASEDIR/kernels/$VARIANT
 export INITRAMFS_SOURCE=$BASEDIR/initramfs/initramfsroot
 export DEFCONFIG=xda-dev
